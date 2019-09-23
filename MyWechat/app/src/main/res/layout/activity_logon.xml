@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="26dp"
+            android:layout_marginLeft="20dp"
+            android:text="微信号/QQ/邮箱登陆" />
+
+        <ImageView
+            android:id="@+id/showImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="账号"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/et_psw"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="密码"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#005ab5"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="用手机号登陆" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="登录"
+        android:background="#008080"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop ="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/tv_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="找回密码 | "
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="紧急冻结 |"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/tv_find_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 新用户注册"
+                android:textSize="16dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
