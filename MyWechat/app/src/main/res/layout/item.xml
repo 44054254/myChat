@@ -20,18 +20,18 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="100dp"
+                android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:src="@drawable/userimg"
-                android:layout_marginLeft="20dp"/>
+                android:layout_marginLeft="-20dp"/>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="vertical"
-                android:layout_marginLeft="20dp">
+                android:layout_marginLeft="-20dp">
 
                 <TextView
                     android:id="@+id/textView1"
@@ -45,12 +45,20 @@
 
                 <TextView
                     android:id="@+id/helloCont"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="你好..."
-                    android:layout_marginTop="-4dp"/>
+                    android:text="你好,在忙吗？我是..."
+                    android:layout_marginTop="2dp"/>
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="昨天" />
 
         </LinearLayout>
 
