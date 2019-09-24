@@ -40,14 +40,11 @@ class logonActivity : AppCompatActivity() {
                 Toast.makeText(this,"请输入你的用户名",Toast.LENGTH_SHORT).show()
             }else if(TextUtils.isEmpty(psw)){
                 Toast.makeText(this,"请输入你的密码",Toast.LENGTH_SHORT).show()
-            }else if(psw.equals("123456")){
+            }else{
                 //存储用户名
                 val editor = sp.edit()
                 editor.putString("USERNAME", userName);
                 editor.commit();
-
-                //存储头像
-
 
                 Toast.makeText(this, "登录成功", Toast.LENGTH_SHORT).show();
                 this.finish();
